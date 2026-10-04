@@ -1,6 +1,6 @@
 :root {
-    --background: #FFFFFF;
-    --surface: #FAFAFA;
+    --background: #FAFAFA;
+    --surface: #FFFFFF;
     --surface-hover: #F4F4F4;
     --surface-black: #111111;
     --surface-black-hover: #1A1A1A;
@@ -27,6 +27,25 @@
     --border-strong: #D6D6D6;
     --border-black: #292929;
     --border-black-strong: #383838;
+}
+
+:root[data-theme="dark"] {
+    --background: #111111;
+    --surface: #191919;
+    --surface-hover: #242424;
+    --surface-black: #F4F4F4;
+    --surface-black-hover: #E6E6E6;
+    --surface-black-active: #D8D8D8;
+
+    --text-primary: #F4F4F4;
+    --text-secondary: #B7B7B7;
+    --text-muted: #858585;
+    --text-invert: #111111;
+
+    --border: #303030;
+    --border-strong: #444444;
+    --border-black: #D6D6D6;
+    --border-black-strong: #BDBDBD;
 }
 
 .gradient-text {
@@ -58,8 +77,8 @@ body{
 }
 
 ::selection {
-    background: var(--orange);
-    color: var(--text-invert);
+    background: var(--background);
+    color: var(--orange);
 }
 
 input,
@@ -111,4 +130,3 @@ input:-webkit-autofill:focus {
 textarea {
   resize: none;
 }
-
