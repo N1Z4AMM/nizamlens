@@ -27,6 +27,34 @@
     --border-strong: #D6D6D6;
     --border-black: #292929;
     --border-black-strong: #383838;
+
+	/* Error — Red */
+    --color-error: #DC2626;
+    --color-error-hover: #B91C1C;
+    --color-error-bg: #FEF2F2;
+    --color-error-border: #FECACA;
+    --color-error-text: #991B1B;
+
+    /* Warning — Amber */
+    --color-warning: #D97706;
+    --color-warning-hover: #B45309;
+    --color-warning-bg: #FFFBEB;
+    --color-warning-border: #FDE68A;
+    --color-warning-text: #92400E;
+
+    /* Success — Green */
+    --color-success: #16A34A;
+    --color-success-hover: #15803D;
+    --color-success-bg: #F0FDF4;
+    --color-success-border: #BBF7D0;
+    --color-success-text: #166534;
+
+    /* Info — Blue */
+    --color-info: #2563EB;
+    --color-info-hover: #1D4ED8;
+    --color-info-bg: #EFF6FF;
+    --color-info-border: #BFDBFE;
+    --color-info-text: #1E40AF;
 }
 
 :root[data-theme="dark"] {

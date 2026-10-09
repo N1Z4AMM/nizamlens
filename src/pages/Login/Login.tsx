@@ -92,7 +92,7 @@ function Login() {
 
     return (
         <main className="Login">
-            <IoIosArrowBack className="LoginBackButton" onClick={() => navigate(-1)} />
+            <IoIosArrowBack className="LoginBackButton"  />
             <div className="LoginContainer">
 
                 <h1 className="LoginTitle">
